@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite1]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="appium.APIDemo">
+        <methods>
+          <include name="setUp"/>
+          <include name="End"/>
+          <include name="ScrollToView"/>
+        </methods>
+      </class> <!-- appium.APIDemo -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite1] -->

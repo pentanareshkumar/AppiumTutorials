@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="67.655" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Softwares\eclipse-jee-mars-2-win32-x86_64\WorkSpace\APIDemoAppium"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Softwares\eclipse-jee-mars-2-win32-x86_64\WorkSpace\APIDemoAppium"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\pekuma\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Softwares\eclipse-jee-mars-2-win32-x86_64\WorkSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf652181428705933381.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\Python 3.5\Scripts\;C:\Python 3.5\;C:\Ruby22\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Java\jdk1.8.0_111\bin\;D:\Users\pekuma\AppData\Local\Android\sdk\tools\;D:\Users\pekuma\AppData\Local\Android\sdk\platform-tools\;C:\Program Files\nodejs\;C:\apache-maven-3.3.9\bin;C:\SeleniumWebdrivers;C:\phantomjs-2.1.1-windows\bin;C:\ant\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\pekuma\AppData\Roaming\npm;D:\Softwares\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\pekuma"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="pekuma"/>
+    <property name="java.class.path" value="/D:/Softwares/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Softwares\eclipse-jee-mars-2-win32-x86_64\WorkSpace\APIDemoAppium\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="ControlSeekBar" classname="appium.APIDemo" time="14.124"/>
+  <testcase name="ScrollToView" classname="appium.APIDemo" time="16.745">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 15.50 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;BLRPEKUMA156023&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.hmh.api, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.223.101:5555, platform=LINUX, appActivity=com.hmh.api.ApiDemos, desired={appPackage=com.hmh.api, appActivity=com.hmh.api.ApiDemos, platformName=Android, deviceName=192.168.223.101:5555}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]&#10;Session ID: 1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab&#10;*** Element info: {Using=name, value=Views}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.50 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'BLRPEKUMA156023', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.hmh.api, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.223.101:5555, platform=LINUX, appActivity=com.hmh.api.ApiDemos, desired={appPackage=com.hmh.api, appActivity=com.hmh.api.ApiDemos, platformName=Android, deviceName=192.168.223.101:5555}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab
+*** Element info: {Using=name, value=Views}
+	at appium.APIDemo.ScrollToView(APIDemo.java:33)
+</failure>
+    <system-err><![CDATA[&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab/element&amp#27;[39m &amp#27;[90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Views\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Views\").instance(0));"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting up to 15000ms for condition
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Views\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Views\").instance(0));","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Views\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Views\").instance(0));","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains("Views").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Views").instance(0)); using ANDROID_UIAUTOMATOR with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Parsing scrollable: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains("Views").instance(0))
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: boolean arg: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: new UiSelector().descriptionContains("Views").instance(0), 
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: new UiSelector().descriptionContains("Views").instance(0)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: class java.lang.String arg: "Views"
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Method name: scrollIntoView
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Setting uiObject for scrollIntoView
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Not scrolling because scrollable does not exist: UiSelector[INSTANCE=0, SCROLLABLE=true]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Parsing scrollable: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Views").instance(0))
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: boolean arg: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: new UiSelector().textContains("Views").instance(0), 
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: new UiSelector().textContains("Views").instance(0)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: class java.lang.String arg: "Views"
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Method name: scrollIntoView
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Setting uiObject for scrollIntoView
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Not scrolling because scrollable does not exist: UiSelector[INSTANCE=0, SCROLLABLE=true]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CONTAINS_DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CONTAINS_TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"6"},"sessionId":"1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 32.893 ms - 87&amp#27;[39m &amp#27;[90m{"status":0,"value":{"ELEMENT":"6"},"sessionId":"1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab/element&amp#27;[39m &amp#27;[90m{"using":"name","value":"Views"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting up to 15000ms for condition
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 24ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 559ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 1096ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 1708ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 2271ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 2795ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 3358ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 3901ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 4478ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 5015ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 5561ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 6101ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 6740ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 7290ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 7829ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 8375ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 8920ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 9469ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 9995ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 10533ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 11091ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 11619ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 12160ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 12695ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 13269ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 13797ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 14376ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Waited for 14901ms so far
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"Views","context":"","multiple":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"Views","context":"","multiple":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding Views using NAME with the contextId:  multiple: false
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=Views, INSTANCE=0]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+&amp#27;[36minfo&amp#27;[39m: [debug] Condition unmet after 15487ms. Timing out.
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab/element &amp#27;[39m&amp#27;[31m500&amp#27;[39m&amp#27;[90m 15488.573 ms - 195&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab/screenshot&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: D:\Users\pekuma\AppData\Local\Android\sdk\platform-tools\adb.exe -s 192.168.223.101:5555 shell "/system/bin/rm /data/local/tmp/screenshot.png; /system/bin/screencap -p /data/local/tmp/screenshot.png "
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: D:\Users\pekuma\AppData\Local\Android\sdk\platform-tools\adb.exe -s 192.168.223.101:5555 pull /data/local/tmp/screenshot.png "C:\\Users\\pekuma\\AppData\\Local\\Temp\\appium117825-1232-pazul6.png"
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3XlcVdX+//E3AoIIOM+KmeGEmpKZOE/lbDk12aQ5piVaj6y8ad7M23DJbtbNm1k3G25pZk45l2NKpjnhPGUoDhgKCiogvz/84Vc8e2/OgQOHDa/n9+Hj1lp7r73QXd/O+6z1WV6SMgQAAAAAAGBjxTw9AQAAAAAAgNwi4AAAAAAAALZHwAEAAAAAAGyPgAMAAAAAANgeAQcAAAAAALA9Ag4AAAAAAGB7BBwAAAAAAMD2CDgAAAAAAIDtEXAAAAAAAADbI+AAAAAAAAC2R8ABAAAAAABsj4ADAAAAAADYHgEHAAAAAACwPR9PTwAAAAAAXBEcHKywsDBJUkREhOl1mzZtkiTFxMQoMTExX+ZmB0FBQUpKSvLoHF555RXdddddLt/3ww8/aNGiRTp//nwezAp2R8ABAAAAoMAKDg5WRESEWrZsqbCwMIWFhSk4ONjlcRITExUTE6OYmBj98ssv2rRpU5EMPapWraqqVavqt99+8+g87rrrLrVr187l+/bt26eVK1fmwYxQGBBwAAAAAChQatSooS5duujBBx+8sVIjtzKDkoiICA0ZMkTS9ZUdc+bM0fLly/Xnn3+65TkFWdWqVRUWFqaEhARPTwXIEwQcAAAAADwuODhYXbp00dChQ90WamQnLCxMkydP1uTJkxUTE6OZM2dq+fLlhXJlR2a4ARRmXpIyPD0JAAAAAEVTcHCwhgwZoqFDh+Zo64m7JSYmaubMmfrkk08KTdBxa7iRkJCQL1tUrOpsNGzYUOXKlXN5zOPHjys2NlapqakOfT/88IO++OILl8dE4cEKDgAAAAD5rqAFG5mCg4P1/PPPa+jQoYUi6PDkyo2c1tmwEhISopCQEMO+ffv2ufVZsB+OiQUAAACQr4YMGaLo6Gg9//zzBSrcuFlm0BEdHX2jZofd...","sessionId":"1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/session/1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab/screenshot &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 1172.685 ms - 70282&amp#27;[39m &amp#27;[90m{"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3XlcVdX+//E3AoIIOM+KmeGEmpKZOE/lbDk12aQ5piVaj6y8ad7M23DJbtbNm1k3G25pZk45l2NKpjnhPGUoDhgKCiogvz/84Vc8e2/OgQOHDa/n9+Hj1lp7r73QXd/O+6z1WV6SMgQAAAAAAGBjxTw9AQAAAAAAgNwi4AAAAAAAALZHwAEAAAAAAGyPgAMAAAAAANgeAQcAAAAAALA9Ag4AAAAAAGB7BBwAAAAAAMD2CDgAAAAAAIDtEXAAAAAAAADbI+AAAAAAAAC2R8ABAAAAAABsj4ADAAAAAADYHgEHAAAAAACwPR9PTwAAAAAAXBEcHKywsDBJUkREhOl1mzZtkiTFxMQoMTExX+ZmB0FBQUpKSvLoHF555RXdddddLt/3ww8/aNGiRTp//nwezAp2R8ABAAAAoMAKDg5WRESEWrZsqbCwMIWFhSk4ONjlcRITExUTE6OYmBj98ssv2rRpU5EMPapWraqqVavqt99+8+g87rrrLrVr187l+/bt26eVK1fmwYxQGBBwAAAAAChQatSooS5duujBBx+8sVIjtzKDkoiICA0ZMkTS9ZUdc+bM0fLly/Xnn3+65TkFWdWqVRUWFqaEhARPTwXIEwQcAAAAADwuODhYXbp00dChQ90WamQnLCxMkydP1uTJkxUTE6OZM2dq+fLlhXJlR2a4ARRmXpIyPD0JAAAAAEVTcHCwhgwZoqFDh+Zo64m7JSYmaubMmfrkk08KTdBxa7iRkJCQL1tUrOpsNGzYUOXKlXN5zOPHjys2NlapqakOfT/88IO++OILl8dE4cEKDgAAAAD5rqAFG5mCg4P1/PPPa+jQoYUi6PDkyo2c1tmwEhISopCQEMO+ffv2ufVZsB+OiQUAAACQr4YMGaLo6Gg9//zzBSrcuFlm0BEdHX2jZofd...","sessionId":"1ffcf1bb-26b1-4c8f-85cb-e22bc30137ab"}&amp#27;[39m
+]]></system-err>
+  </testcase>
+</testsuite>
